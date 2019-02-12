@@ -1,0 +1,25 @@
+[debug] [2019-02-12T00:20:28.457Z] ----------------------------------------------------------------------
+[debug] [2019-02-12T00:20:28.459Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sangwon.jung\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-12T00:20:28.460Z] CLI Version:   6.3.1
+[debug] [2019-02-12T00:20:28.460Z] Platform:      win32
+[debug] [2019-02-12T00:20:28.460Z] Node Version:  v10.15.1
+[debug] [2019-02-12T00:20:28.463Z] Time:          Tue Feb 12 2019 09:20:28 GMT+0900 (GMT+09:00)
+[debug] [2019-02-12T00:20:28.463Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-12T00:20:28.472Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-12T00:20:28.472Z] > authorizing via signed-in user
+[debug] [2019-02-12T00:20:28.472Z] [iam] checking project jsw3070-gbook for permissions ["firebase.projects.get"]
+[debug] [2019-02-12T00:20:28.474Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jsw3070-gbook:testIamPermissions  
+
+[debug] [2019-02-12T00:20:29.834Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-12T00:20:29.835Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/jsw3070-gbook  
+ 
+[debug] [2019-02-12T00:20:31.048Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\sangwon-weather\gbook'...
+[info] 
+[debug] [2019-02-12T00:20:31.052Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/264570551322/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-12T00:20:32.078Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
